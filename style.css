@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* colours */
+  --white-colour: #fff;
+  --red: #cf0921;
+  --yellow: rgb(255, 255, 0);
+  --green: #006b3d;
+}
+
+body {
+    font-family: 'Inter';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+.country-names {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.flag {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: rgb(43, 43, 43);
+  border-radius: 15px;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+}
+.part {
+  height: 80px;
+  width: 400px;
+}
+
+/* ghana flag */
+#red {
+  background-color: var(--red);
+}
+#yellow {
+  background-color: var(--yellow);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#yellow .star {
+  font-size: 3rem;
+  text-align: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  /* background-color: #000; */
+}
+#green {
+  background-color: var(--green);
+}
+
+/* naija flag */
+#green {
+  background-color: var(--green);
+}
+#white {
+  background-color: #fff;
+  position: relative;
+}
