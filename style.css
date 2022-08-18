@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 * {
   box-sizing: border-box;
 }
 
 :root {
   /* colours */
-  --white-colour: #fff;
+  --white: #fff;
   --red: #cf0921;
   --yellow: rgb(255, 255, 0);
   --green: #006b3d;
+  --black: #000;
 }
 
 body {
-    font-family: 'Inter';
+  font-family: "Inter";
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,8 +23,8 @@ body {
   margin: 0;
 }
 .country-names {
-    font-size: 1.2rem;
-    font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 .flag {
   display: flex;
@@ -68,6 +69,25 @@ body {
   background-color: var(--green);
 }
 #white {
-  background-color: #fff;
+  background-color: var(--white);
   position: relative;
+}
+
+/* kenya */
+#black {
+  background-color: var(--black);
+  border-bottom: 10px solid var(--white);
+}
+#red {
+  background-color: var(--red);
+  border-bottom: 10px solid var(--white);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#kenyan_crest {
+  width: 180px;
+  height: 220px;
+  /* background-color: #fff; */
 }
